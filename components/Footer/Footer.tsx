@@ -36,13 +36,17 @@ const Footer = () => (
             </List>
           </Grid.Column>
           <Grid.Column width={7}>
-            <Header as="h4">Hecho para</Header>
+            <Header as="h4">Agradecimientos a </Header>
             <p>
-              <a href="https://platzi.com/">Platzi y su curso de Next.JS</a> de
-              Platzi dictado por{' '}
-              <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a>
+              <a href="https://platzi.com/" target="_blank">
+                Platzi y su curso de Next.JS
+              </a>{' '}
+              de Platzi dictado por{' '}
+              <a href="https://twitter.com/jonalvarezz" target="_blank">
+                @jonalvarezz
+              </a>
             </p>
-            <List horizontal style={{ display: 'flex' }}>
+            {/* <List horizontal style={{ display: 'flex' }}>
               <List.Item
                 icon="twitter"
                 style={{ display: 'flex' }}
@@ -57,7 +61,7 @@ const Footer = () => (
                   </a>
                 }
               />
-            </List>
+            </List> */}
           </Grid.Column>
         </Grid.Row>
       </Grid>
